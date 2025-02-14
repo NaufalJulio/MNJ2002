@@ -1,6 +1,3 @@
--- FischServerFinder by Penguin!
--- https://discord.gg/fWncS2vFx
-
 if not game:IsLoaded() then game.Loaded:Wait() end
 
 local loadConfig, parseuptime, formattime, tp, teleport, creategui, createframe, notifygui, minimizegui, chesttpscan, scanchest, potentialsunkenchest, loadedsunkenchest, claimsunkenchest, issunkenchest, convertEventString, sendwebhook, haschildren, scanWorld, notify, scan
@@ -961,7 +958,7 @@ activeChestsFolder.ChildAdded:Connect(function(object)
 end)
 
 task.wait(2)
-notifygui("FischServerFinder by Penguin - " .. scriptvers, 0, 247, 255)
+notifygui("FischServerFinder by baph0met - " .. scriptvers, 0, 247, 255)
 
 loadConfig()
 
