@@ -75,10 +75,10 @@ local function dropdownsetup(list, dropdown)
 end
 
 local Window = Rayfield:CreateWindow({
-    Name = "FischServerFinder - Penguin " .. data.version,
+    Name = "FischServerFinder - baph0met " .. data.version,
     Icon = 0,
     LoadingTitle = "FischServerFinder GUI",
-    LoadingSubtitle = "by Penguin",
+    LoadingSubtitle = "by baph0met",
     Theme = "Default",
  
     DisableRayfieldPrompts = false,
