@@ -7,7 +7,7 @@ print("[FSF-G] Loading GUI")
 getgenv().SecureMode = true
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
-local data = loadstring(game:HttpGet("https://raw.githubusercontent.com/P3nguinMinecraft/FischScripts/main/fsf-data.lua"))()
+local data = loadstring(game:HttpGet("https://raw.githubusercontent.com/NaufalJulio/MNJ2002/refs/heads/main/fsf-data.lua"))()
 
 if not isfile("FischServerFinder/config.json") and writefile then
     if not isfolder("FischServerFinder") then
@@ -126,7 +126,7 @@ local HomeButton1 = HomeTab:CreateButton({
 local HomeButton2 = HomeTab:CreateButton({
     Name = "Load Main Script",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/P3nguinMinecraft/FischScripts/main/fischserverfinder.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NaufalJulio/MNJ2002/refs/heads/main/fischserverfinder.lua"))()
     end,
 })
 
